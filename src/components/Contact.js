@@ -18,7 +18,7 @@ const Contact = () => {
           flexFlow: "column",
           alignItems: "center",
           textAlign: "center",
-          margin: "5% 40%",
+          margin: "5% 35%",
           padding: "50px 0",
         }}
       >
