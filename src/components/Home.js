@@ -16,7 +16,7 @@ const Home = () => {
     >
       <Card
         sx={{
-          marginTop: "10%",
+          margin: "10% 0",
           borderRadius: "1%",
           width: "45%",
         }}
@@ -32,9 +32,10 @@ const Home = () => {
       </Card>
       <Paper
         sx={{
+          height: "30vh",
           padding: "3% 3%",
           textAlign: "center",
-          marginTop: "10%",
+          margin: "10% 0",
           width: "45%",
           backgroundColor: "#7C7C7C",
           color: "#eee5e9",
