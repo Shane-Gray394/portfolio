@@ -17,13 +17,13 @@ const Home = () => {
       <Card
         sx={{
           marginTop: "10%",
-          borderRadius: "50%",
+          borderRadius: "1%",
           width: "45%",
         }}
       >
         <CardMedia
           sx={{
-            borderRadius: "50%",
+            borderRadius: "1%",
             width: "100%",
           }}
           component="img"
