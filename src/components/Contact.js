@@ -30,7 +30,7 @@ const Contact = () => {
             margin: "1% 90%",
             maxWidth: "500px",
             maxHeight: "50px",
-            minWidth: "30px",
+            minWidth: "120px",
             minHeight: "30px",
           }}
           variant="contained"
@@ -46,7 +46,7 @@ const Contact = () => {
             margin: "1% 90%",
             maxWidth: "500px",
             maxHeight: "50px",
-            minWidth: "30px",
+            minWidth: "120px",
             minHeight: "30px",
           }}
           variant="contained"
@@ -62,7 +62,7 @@ const Contact = () => {
             margin: "1% 90%",
             maxWidth: "500px",
             maxHeight: "50px",
-            minWidth: "30px",
+            minWidth: "120px",
             minHeight: "30px",
           }}
           variant="contained"
