@@ -29,7 +29,7 @@ function App() {
           <Contact />
         </Route>
         <Route path="/projects">
-          <Projects />
+          <Projects theme={theme} />
         </Route>
         <Route path="/">
           <Home />

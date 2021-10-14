@@ -5,6 +5,7 @@ import {
   Card,
   Box,
   CardActionArea,
+  CardContent,
 } from "@mui/material";
 
 const Projects = () => {
@@ -24,17 +25,34 @@ const Projects = () => {
             margin: "5% 5%",
             height: "50vh",
             width: "25%",
+            backgroundColor: "#383D3B",
           }}
         >
-          <CardActionArea
-            href="https://mobile-weather.vercel.app/"
-            target="_blank"
+          <CardContent
+            style={{
+              backgroundColor: "#383D3B",
+            }}
           >
-            <CardMedia
-              component="img"
-              image="https://i.imgur.com/ZwkD5U5.png"
-            ></CardMedia>
-          </CardActionArea>
+            <Typography
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                paddingBottom: "10px",
+                color: "white",
+              }}
+            >
+              Mobile Weather App
+            </Typography>
+            <CardActionArea
+              href="https://mobile-weather.vercel.app/"
+              target="_blank"
+            >
+              <CardMedia
+                component="img"
+                image="https://i.imgur.com/ZwkD5U5.png"
+              ></CardMedia>
+            </CardActionArea>
+          </CardContent>
         </Card>
         <Card
           sx={{
