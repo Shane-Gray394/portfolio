@@ -38,8 +38,8 @@ const Projects = () => {
                 display: "flex",
                 justifyContent: "center",
                 paddingBottom: "10px",
-                color: "white",
               }}
+              color="#eee5e9"
             >
               Mobile Weather App
             </Typography>

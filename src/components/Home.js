@@ -40,7 +40,7 @@ const Home = () => {
           textAlign: "center",
           margin: "5% 0",
           width: "45%",
-          backgroundColor: "#7C7C7C",
+          backgroundColor: "primary.main",
           color: "#eee5e9",
         }}
       >
