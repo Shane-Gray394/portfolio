@@ -17,7 +17,7 @@ const Header = () => {
           justifyContent: "space-between",
         }}
       >
-        <Typography>My Portfolio</Typography>
+        <Typography color="#eee5e9">My Portfolio</Typography>
         <ButtonGroup>
           <Button
             color="secondary"
@@ -26,7 +26,10 @@ const Header = () => {
             variant="contained"
             startIcon={<HomeIcon />}
           >
-            Home
+            {" "}
+            <Typography variant="h8" color="#eee5e9">
+              Home
+            </Typography>
           </Button>
           <Button
             color="secondary"
@@ -35,7 +38,9 @@ const Header = () => {
             variant="contained"
             startIcon={<FolderIcon />}
           >
-            Projects
+            <Typography variant="h8" color="#eee5e9">
+              Projects
+            </Typography>
           </Button>
           <Button
             color="secondary"
@@ -44,7 +49,10 @@ const Header = () => {
             variant="contained"
             startIcon={<ContactPageIcon />}
           >
-            Contact
+            {" "}
+            <Typography variant="h8" color="#eee5e9">
+              Contact
+            </Typography>
           </Button>
         </ButtonGroup>
       </Toolbar>
