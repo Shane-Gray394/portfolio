@@ -27,6 +27,10 @@ const Contact = () => {
           href="https://www.linkedin.com/in/shanegray394/"
           sx={{
             margin: "1% 90%",
+            maxWidth: "500px",
+            maxHeight: "50px",
+            minWidth: "30px",
+            minHeight: "30px",
           }}
           variant="contained"
           startIcon={<LinkedInIcon />}
@@ -38,6 +42,10 @@ const Contact = () => {
           href="https://twitter.com/Shane_the_Gray"
           sx={{
             margin: "1% 90%",
+            maxWidth: "500px",
+            maxHeight: "50px",
+            minWidth: "30px",
+            minHeight: "30px",
           }}
           variant="contained"
           startIcon={<TwitterIcon />}
@@ -49,6 +57,10 @@ const Contact = () => {
           href="https://github.com/Shane-Gray394"
           sx={{
             margin: "1% 90%",
+            maxWidth: "500px",
+            maxHeight: "50px",
+            minWidth: "30px",
+            minHeight: "30px",
           }}
           variant="contained"
           startIcon={<GitHubIcon />}

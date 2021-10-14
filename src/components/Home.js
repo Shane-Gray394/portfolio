@@ -23,6 +23,7 @@ const Home = () => {
       >
         <CardMedia
           sx={{
+            position: "center",
             borderRadius: "1%",
             width: "100%",
           }}

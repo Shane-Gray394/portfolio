@@ -1,5 +1,11 @@
 import React from "react";
-import { Typography, CardMedia, Card, Box } from "@mui/material";
+import {
+  Typography,
+  CardMedia,
+  Card,
+  Box,
+  CardActionArea,
+} from "@mui/material";
 
 const Projects = () => {
   return (
@@ -20,7 +26,15 @@ const Projects = () => {
             width: "25%",
           }}
         >
-          <CardMedia></CardMedia>
+          <CardActionArea
+            href="https://mobile-weather.vercel.app/"
+            target="_blank"
+          >
+            <CardMedia
+              component="img"
+              image="https://i.imgur.com/ZwkD5U5.png"
+            ></CardMedia>
+          </CardActionArea>
         </Card>
         <Card
           sx={{
