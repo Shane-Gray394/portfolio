@@ -16,9 +16,10 @@ const Home = () => {
     >
       <Card
         sx={{
-          margin: "10% 0",
+          margin: "5% 0",
           borderRadius: "1%",
-          width: "45%",
+          width: "35%",
+          height: "650px",
         }}
       >
         <CardMedia
@@ -26,6 +27,7 @@ const Home = () => {
             position: "center",
             borderRadius: "1%",
             width: "100%",
+            height: "100%",
           }}
           component="img"
           src="https://i.imgur.com/GNnCMwf.jpg"
@@ -36,7 +38,7 @@ const Home = () => {
           height: "30vh",
           padding: "3% 3%",
           textAlign: "center",
-          margin: "10% 0",
+          margin: "5% 0",
           width: "45%",
           backgroundColor: "#7C7C7C",
           color: "#eee5e9",
