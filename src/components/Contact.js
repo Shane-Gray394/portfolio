@@ -9,7 +9,7 @@ import { Typography } from "@mui/material";
 const Contact = () => {
   return (
     <div>
-      <Typography marginTop="5%" align="center" variant="h3">
+      <Typography marginTop="2%" align="center" variant="h3">
         Contact Me
       </Typography>
       <Paper

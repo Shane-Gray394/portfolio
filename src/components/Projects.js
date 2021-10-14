@@ -11,7 +11,7 @@ import {
 const Projects = () => {
   return (
     <div>
-      <Typography marginTop="5%" align="center" variant="h3">
+      <Typography marginTop="2%" align="center" variant="h3">
         My Projects
       </Typography>
       <Box
