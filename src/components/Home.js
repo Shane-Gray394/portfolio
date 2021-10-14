@@ -30,7 +30,7 @@ const Home = () => {
             height: "100%",
           }}
           component="img"
-          src="https://i.imgur.com/GNnCMwf.jpg"
+          src="https://i.imgur.com/ykHgT6D.jpg"
         />
       </Card>
       <Paper
