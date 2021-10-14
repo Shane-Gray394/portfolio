@@ -38,7 +38,7 @@ const Home = () => {
           height: "25vh",
           padding: "3% 3%",
           textAlign: "center",
-          margin: "5% 0",
+          margin: "5% 3% 5% 0%",
           width: "50%",
           backgroundColor: "primary.main",
           color: "#eee5e9",
