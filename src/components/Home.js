@@ -18,8 +18,8 @@ const Home = () => {
         sx={{
           margin: "5% 0",
           borderRadius: "1%",
-          width: "35%",
-          height: "650px",
+          width: "25%",
+          height: "450px",
         }}
       >
         <CardMedia
@@ -35,11 +35,11 @@ const Home = () => {
       </Card>
       <Paper
         sx={{
-          height: "30vh",
+          height: "25vh",
           padding: "3% 3%",
           textAlign: "center",
           margin: "5% 0",
-          width: "45%",
+          width: "50%",
           backgroundColor: "primary.main",
           color: "#eee5e9",
         }}
