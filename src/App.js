@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+
 import { Switch, Route } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material";
 
@@ -17,6 +18,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: ["Open Sans", "sans-serif"].join(","),
+    color: "#eee5e9",
   },
 });
 
