@@ -25,12 +25,12 @@ const Projects = () => {
             margin: "5% 5%",
             height: "50vh",
             width: "25%",
-            backgroundColor: "#383D3B",
+            backgroundColor: "primary.main",
           }}
         >
           <CardContent
             style={{
-              backgroundColor: "#383D3B",
+              backgroundColor: "primary.main",
             }}
           >
             <Typography
@@ -59,6 +59,7 @@ const Projects = () => {
             margin: "5% 5%",
             height: "50vh",
             width: "25%",
+            backgroundColor: "primary.main",
           }}
         >
           <CardMedia></CardMedia>
@@ -68,6 +69,7 @@ const Projects = () => {
             margin: "5% 5%",
             height: "50vh",
             width: "25%",
+            backgroundColor: "primary.main",
           }}
         >
           <CardMedia></CardMedia>

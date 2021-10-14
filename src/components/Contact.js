@@ -20,6 +20,7 @@ const Contact = () => {
           textAlign: "center",
           margin: "5% 35%",
           padding: "50px 0",
+          backgroundColor: "primary.main",
         }}
       >
         <Button
@@ -34,6 +35,7 @@ const Contact = () => {
           }}
           variant="contained"
           startIcon={<LinkedInIcon />}
+          color="secondary"
         >
           LinkedIN
         </Button>
@@ -49,6 +51,7 @@ const Contact = () => {
           }}
           variant="contained"
           startIcon={<TwitterIcon />}
+          color="secondary"
         >
           Twitter
         </Button>
@@ -64,6 +67,7 @@ const Contact = () => {
           }}
           variant="contained"
           startIcon={<GitHubIcon />}
+          color="secondary"
         >
           GitHub
         </Button>
