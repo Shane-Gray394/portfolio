@@ -3,7 +3,7 @@ import { Paper, Card, Typography, CardMedia, Grid } from "@mui/material";
 
 const Home = () => {
   return (
-    <Grid container justifyContent={"space-evenly"}>
+    <Grid container justifyContent={"space-evenly"} mt={7}>
       <Grid item lg={4} md={5} xs={10}>
         <Card
           sx={{
