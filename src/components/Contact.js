@@ -10,17 +10,19 @@ const Contact = () => {
       <Typography marginTop="2%" align="center" variant="h3">
         Contact Me
       </Typography>
-      <Grid container justifyContent={"center"}>
+      <Grid container justifyContent={"center"} sx={{ marginTop: "5%" }}>
         <Grid item lg={4} md={6} sm={8} xs={10}>
           <Paper
             sx={{
               display: "flex",
               flexFlow: "column",
               alignItems: "center",
+              justifyContent: "center",
               textAlign: "center",
               padding: "7.5% 0",
               backgroundColor: "primary.main",
               margin: "5% 0",
+              height: "30vh",
             }}
           >
             <Button
