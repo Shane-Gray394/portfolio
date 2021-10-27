@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-
+import Footer from "./components/Footer";
 import { Switch, Route } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material";
 
@@ -37,6 +37,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      {/* <Footer /> */}
     </ThemeProvider>
   );
 }
