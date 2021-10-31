@@ -24,7 +24,7 @@ const Home = () => {
       <Grid item lg={6} md={5} xs={10}>
         <Paper
           sx={{
-            height: "25vh",
+            height: "30vh",
             padding: "3% 3%",
             textAlign: "center",
             margin: "5% 0",
