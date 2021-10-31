@@ -9,7 +9,7 @@ const Home = () => {
           sx={{
             margin: "5% 0",
             borderRadius: "1%",
-            height: "50vh",
+            height: "70vh",
           }}
         >
           <CardMedia
@@ -17,7 +17,7 @@ const Home = () => {
               height: "100%",
             }}
             component="img"
-            src="https://i.imgur.com/ykHgT6D.jpg"
+            src="https://i.imgur.com/3qRLaMw.jpg"
           />
         </Card>
       </Grid>
