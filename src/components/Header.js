@@ -118,7 +118,7 @@ const Header = () => {
         {/* <Typography color="#eee5e9" fontSize={30}>
           My Portfolio
         </Typography> */}
-        <img src="https://i.imgur.com/caTORpLt.png" alt="logo" />
+        <img src="https://i.imgur.com/k1PGP2dt.png" alt="logo" />
         {matches ? switchCase("a") : switchCase("b")}
       </Toolbar>
     </AppBar>
