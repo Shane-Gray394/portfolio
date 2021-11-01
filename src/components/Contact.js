@@ -3,8 +3,14 @@ import { Paper, Button, Typography, Grid } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import DescriptionIcon from "@mui/icons-material/Description";
+import pdf from "../assets/resume.pdf";
 
 const Contact = () => {
+  const onResumeClick = () => {
+    window.open(pdf);
+  };
+
   return (
     <div>
       <Typography marginTop="2%" align="center" variant="h3">
@@ -72,6 +78,21 @@ const Contact = () => {
               color="secondary"
             >
               GitHub
+            </Button>
+            <Button
+              onClick={onResumeClick}
+              sx={{
+                margin: "1% 90%",
+                maxWidth: "500px",
+                maxHeight: "50px",
+                minWidth: "120px",
+                minHeight: "30px",
+              }}
+              variant="contained"
+              startIcon={<DescriptionIcon />}
+              color="secondary"
+            >
+              Resume
             </Button>
           </Paper>
         </Grid>
