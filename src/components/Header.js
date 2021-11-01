@@ -109,15 +109,16 @@ const Header = () => {
     }
   };
   return (
-    <AppBar color="primary" position="static" sx={{ padding: ".5% 0" }}>
+    <AppBar color="primary" position="static">
       <Toolbar
         sx={{
           justifyContent: "space-between",
         }}
       >
-        <Typography color="#eee5e9" fontSize={30}>
+        {/* <Typography color="#eee5e9" fontSize={30}>
           My Portfolio
-        </Typography>
+        </Typography> */}
+        <img src="https://i.imgur.com/caTORpLt.png" alt="logo" />
         {matches ? switchCase("a") : switchCase("b")}
       </Toolbar>
     </AppBar>
