@@ -1,9 +1,15 @@
 import React from "react";
 import { Paper, Card, Typography, CardMedia, Grid } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+
+import Skills from "./Skills";
 
 const Home = () => {
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up("md"));
   return (
-    <Grid container justifyContent={"space-evenly"} mt={7}>
+    <Grid container justifyContent={"space-evenly"} mt={5}>
       <Grid item lg={4} md={5} xs={10}>
         <Card
           sx={{
@@ -65,6 +71,7 @@ const Home = () => {
           </Typography>
         </Paper>
       </Grid>
+      {matches ? <Skills /> : ""}
     </Grid>
   );
 };

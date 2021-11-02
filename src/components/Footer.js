@@ -1,16 +1,16 @@
-import { Typography, Box } from "@mui/material";
 import React from "react";
-
+import { Typography, Box } from "@mui/material";
 const Footer = () => {
   return (
     <Box
       sx={{
-        display: "flex",
-        justifyContent: "center",
-        margin: "1% 0",
+        textAlign: "center",
+        padding: "2% 0",
       }}
     >
-      <Typography variant={"h7"}>Created by Shane Gray &copy; 2021</Typography>
+      <Typography variant={"h7"} sx={{ textAlign: "center" }}>
+        Created by Shane Gray &copy; 2021
+      </Typography>
     </Box>
   );
 };

@@ -37,7 +37,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </ThemeProvider>
   );
 }

@@ -16,7 +16,7 @@ const Contact = () => {
       <Typography marginTop="2%" align="center" variant="h3">
         Contact Me
       </Typography>
-      <Grid container justifyContent={"center"} sx={{ marginTop: "5%" }}>
+      <Grid container justifyContent={"center"} sx={{ marginTop: "2%" }}>
         <Grid item lg={4} md={6} sm={8} xs={10}>
           <Paper
             sx={{
