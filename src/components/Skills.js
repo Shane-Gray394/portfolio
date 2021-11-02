@@ -23,7 +23,7 @@ const Skills = () => {
         <Card>
           <CardMedia component="img" image="https://i.imgur.com/2kpF1j2.png" />
           <Typography variant="h5" textAlign="center">
-            Material-UI
+            MUI
           </Typography>
         </Card>
       </Grid>
@@ -64,7 +64,10 @@ const Skills = () => {
       </Grid>
       <Grid item md={1.1}>
         <Card>
-          <CardMedia component="img" image="https://i.imgur.com/Fr2Nyvl.png" />
+          <CardMedia
+            component="img"
+            image="https://i.imgur.com/l9k6A5F.png?1"
+          />
           <Typography variant="h5" textAlign="center">
             CSS 3
           </Typography>
