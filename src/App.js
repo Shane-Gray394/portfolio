@@ -15,10 +15,12 @@ const theme = createTheme({
     secondary: {
       main: "#7C7C7C",
     },
+    text: {
+      main: "#eee5e9",
+    },
   },
   typography: {
     fontFamily: ["Open Sans", "sans-serif"].join(","),
-    color: "#eee5e9",
   },
 });
 
