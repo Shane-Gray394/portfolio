@@ -96,7 +96,7 @@ const Home = () => {
             </Typography>
           </Paper>
         </Grid>
-        {matches ? <Skills /> : ""}
+        {matches && <Skills />}
       </Grid>
     </div>
   );
