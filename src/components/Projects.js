@@ -45,7 +45,6 @@ const Projects = () => {
           <Card
             sx={{
               margin: "5% 0",
-              // height: "25%",
               backgroundColor: "primary.main",
             }}
           >

@@ -10,7 +10,7 @@ const Footer = () => {
         backgroundColor: "primary.main",
       }}
     >
-      <Typography variant={"h7"} sx={{ textAlign: "center" }}>
+      <Typography variant={"h7"} sx={{ textAlign: "center", color: "#eee5e9" }}>
         Created by Shane Gray &copy; 2021
       </Typography>
     </Box>
