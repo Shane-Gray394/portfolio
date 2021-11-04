@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   Typography,
   CardMedia,
@@ -9,11 +9,35 @@ import {
   ButtonGroup,
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import WAVES from "vanta/dist/vanta.waves.min";
 
 const Projects = () => {
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const myRef = useRef(null);
+
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        WAVES({
+          el: myRef.current,
+          mouseControls: false,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color: 0x383d3b,
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
   return (
-    <div>
-      <Typography margin="2% 0" align="center" variant="h3">
+    <div ref={myRef}>
+      <Typography padding={"1.5% 0"} align="center" variant="h3">
         My Projects
       </Typography>
       <Grid container justifyContent={"space-evenly"}>
