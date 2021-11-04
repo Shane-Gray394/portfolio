@@ -33,18 +33,19 @@ const Home = () => {
   }, [vantaEffect]);
   return (
     <div ref={myRef}>
-      <Grid container justifyContent={"space-evenly"} padding={"2% 0"}>
-        <Grid item lg={4} md={5} xs={10}>
+      <Grid container justifyContent={"space-evenly"} pb={2}>
+        <Grid item lg={3} md={5} sm={7} xs={10}>
           <Card
             sx={{
               margin: "5% 0",
               borderRadius: "1%",
-              height: "70vh",
+              height: "55vh",
             }}
           >
             <CardMedia
               sx={{
                 height: "100%",
+                objectPosition: "center top",
               }}
               component="img"
               src="https://i.imgur.com/3qRLaMw.jpg"
