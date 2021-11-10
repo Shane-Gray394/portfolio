@@ -8,6 +8,7 @@ const Footer = () => {
         textAlign: "center",
         padding: "2% 0",
         backgroundColor: "primary.main",
+        height: "10vh",
       }}
     >
       <Typography variant={"h7"} sx={{ textAlign: "center", color: "#eee5e9" }}>

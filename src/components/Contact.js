@@ -34,7 +34,7 @@ const Contact = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} padding={"2% 0"} style={{ height: "79.9vh" }}>
+    <div ref={myRef} padding={"2% 0"} style={{ height: "79vh" }}>
       <Typography pt={2} align="center" variant="h3">
         Contact Me
       </Typography>

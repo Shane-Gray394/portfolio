@@ -109,7 +109,11 @@ const Header = () => {
     }
   };
   return (
-    <AppBar color="primary" position="static" sx={{ padding: ".4% 0" }}>
+    <AppBar
+      color="primary"
+      position="static"
+      sx={{ padding: ".4% 0", height: "10vh" }}
+    >
       <Toolbar
         sx={{
           justifyContent: "space-between",
