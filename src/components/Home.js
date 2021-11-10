@@ -33,7 +33,7 @@ const Home = () => {
   }, [vantaEffect]);
   return (
     <div ref={myRef}>
-      <Grid container justifyContent={"space-evenly"} pb={2}>
+      <Grid container justifyContent={"space-evenly"} pb={0}>
         <Grid item lg={3} md={5} sm={7} xs={10}>
           <Card
             sx={{

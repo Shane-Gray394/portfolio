@@ -8,7 +8,8 @@ const Skills = () => {
       sx={{
         display: "flex",
         justifyContent: "space-around",
-        paddingTop: "2%",
+        padding: "2% 0",
+        backgroundColor: "primary.main",
       }}
     >
       <Grid item md={1.1}>
@@ -17,7 +18,7 @@ const Skills = () => {
           <Typography
             variant="h5"
             textAlign="center"
-            sx={{ backgroundColor: "primary.main" }}
+            sx={{ backgroundColor: "secondary.main" }}
             color="text.main"
           >
             JavaScript
@@ -30,7 +31,7 @@ const Skills = () => {
           <Typography
             variant="h5"
             textAlign="center"
-            sx={{ backgroundColor: "primary.main" }}
+            sx={{ backgroundColor: "secondary.main" }}
             color="text.main"
           >
             MUI
@@ -43,7 +44,7 @@ const Skills = () => {
           <Typography
             variant="h5"
             textAlign="center"
-            sx={{ backgroundColor: "primary.main" }}
+            sx={{ backgroundColor: "secondary.main" }}
             color="text.main"
           >
             React
@@ -56,7 +57,7 @@ const Skills = () => {
           <Typography
             variant="h5"
             textAlign="center"
-            sx={{ backgroundColor: "primary.main" }}
+            sx={{ backgroundColor: "secondary.main" }}
             color="text.main"
           >
             HTML 5
@@ -69,7 +70,7 @@ const Skills = () => {
           <Typography
             variant="h5"
             textAlign="center"
-            sx={{ backgroundColor: "primary.main" }}
+            sx={{ backgroundColor: "secondary.main" }}
             color="text.main"
           >
             GitHub
@@ -85,7 +86,7 @@ const Skills = () => {
           <Typography
             variant="h5"
             textAlign="center"
-            sx={{ backgroundColor: "primary.main" }}
+            sx={{ backgroundColor: "secondary.main" }}
             color="text.main"
           >
             Git Bash
@@ -101,7 +102,7 @@ const Skills = () => {
           <Typography
             variant="h5"
             textAlign="center"
-            sx={{ backgroundColor: "primary.main" }}
+            sx={{ backgroundColor: "secondary.main" }}
             color="text.main"
           >
             CSS 3
