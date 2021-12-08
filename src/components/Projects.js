@@ -27,7 +27,7 @@ const Projects = () => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          color: 0x383d3b,
+          color: 0x540b0e,
         })
       );
     }
@@ -36,10 +36,7 @@ const Projects = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef}>
-      <Typography padding={"1.5% 0"} align="center" variant="h3">
-        My Projects
-      </Typography>
+    <div ref={myRef} style={{ height: "72vh" }}>
       <Grid container justifyContent={"space-evenly"}>
         <Grid item lg={3} md={7} sm={9} xs={11}>
           <Card
@@ -60,7 +57,7 @@ const Projects = () => {
                 sx={{
                   paddingBottom: "10px",
                 }}
-                color="#eee5e9"
+                color={"text.main"}
               >
                 Mobile Weather App
               </Typography>
@@ -76,16 +73,22 @@ const Projects = () => {
                   variant={"contained"}
                   color={"secondary"}
                 >
-                  Check it Out
+                  <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
                 <Button
                   href="https://github.com/Shane-Gray394/weather"
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
-                  endIcon={<GitHubIcon />}
+                  endIcon={
+                    <GitHubIcon
+                      sx={{
+                        color: "text.main",
+                      }}
+                    />
+                  }
                 >
-                  The Repo
+                  <Typography color={"text.main"}>The Repo</Typography>
                 </Button>
               </ButtonGroup>
             </CardContent>
@@ -110,7 +113,7 @@ const Projects = () => {
                 sx={{
                   paddingBottom: "10px",
                 }}
-                color="#eee5e9"
+                color={"text.main"}
               >
                 Potluck Planner
               </Typography>
@@ -126,16 +129,22 @@ const Projects = () => {
                   variant={"contained"}
                   color={"secondary"}
                 >
-                  Check it Out
+                  <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
                 <Button
                   href="https://github.com/bw-fr-potluck-planner-6/front-end"
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
-                  endIcon={<GitHubIcon />}
+                  endIcon={
+                    <GitHubIcon
+                      sx={{
+                        color: "text.main",
+                      }}
+                    />
+                  }
                 >
-                  The Repo
+                  <Typography color={"text.main"}>The Repo</Typography>
                 </Button>
               </ButtonGroup>
             </CardContent>
@@ -160,7 +169,7 @@ const Projects = () => {
                 sx={{
                   paddingBottom: "10px",
                 }}
-                color="#eee5e9"
+                color={"text.main"}
               >
                 To Be Determined
               </Typography>
@@ -176,16 +185,22 @@ const Projects = () => {
                   variant={"contained"}
                   color={"secondary"}
                 >
-                  Check it Out
+                  <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
                 <Button
                   href=""
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
-                  endIcon={<GitHubIcon />}
+                  endIcon={
+                    <GitHubIcon
+                      sx={{
+                        color: "text.main",
+                      }}
+                    />
+                  }
                 >
-                  The Repo
+                  <Typography color={"text.main"}>The Repo</Typography>
                 </Button>
               </ButtonGroup>
             </CardContent>

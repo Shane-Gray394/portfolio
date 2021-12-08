@@ -25,7 +25,7 @@ const Contact = () => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          color: 0x383d3b,
+          color: 0x540b0e,
         })
       );
     }
@@ -34,11 +34,8 @@ const Contact = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} padding={"2% 0"} style={{ height: "80vh" }}>
-      <Typography pt={2} align="center" variant="h3">
-        Contact Me
-      </Typography>
-      <Grid container justifyContent={"center"} sx={{ marginTop: "2%" }}>
+    <div ref={myRef} style={{ height: "72vh" }}>
+      <Grid container justifyContent={"center"} alignItems={"center"}>
         <Grid item lg={4} md={6} sm={8} xs={10}>
           <Paper
             sx={{
@@ -49,7 +46,7 @@ const Contact = () => {
               textAlign: "center",
               padding: "7.5% 0",
               backgroundColor: "primary.main",
-              margin: "5% 0",
+              margin: "15% 0",
               height: "30vh",
             }}
           >
@@ -64,10 +61,18 @@ const Contact = () => {
                 minHeight: "30px",
               }}
               variant="contained"
-              startIcon={<LinkedInIcon />}
+              startIcon={
+                <LinkedInIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
               color="secondary"
             >
-              LinkedIN
+              <Typography variant="h8" color={"text.main"}>
+                LinkedIn
+              </Typography>
             </Button>
             <Button
               target="_blank"
@@ -80,10 +85,18 @@ const Contact = () => {
                 minHeight: "30px",
               }}
               variant="contained"
-              startIcon={<TwitterIcon />}
+              startIcon={
+                <TwitterIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
               color="secondary"
             >
-              Twitter
+              <Typography variant="h8" color={"text.main"}>
+                Twitter
+              </Typography>
             </Button>
             <Button
               target="_blank"
@@ -96,10 +109,18 @@ const Contact = () => {
                 minHeight: "30px",
               }}
               variant="contained"
-              startIcon={<GitHubIcon />}
+              startIcon={
+                <GitHubIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
               color="secondary"
             >
-              GitHub
+              <Typography variant="h8" color={"text.main"}>
+                GitHub
+              </Typography>
             </Button>
             <Button
               onClick={onResumeClick}
@@ -111,10 +132,18 @@ const Contact = () => {
                 minHeight: "30px",
               }}
               variant="contained"
-              startIcon={<DescriptionIcon />}
+              startIcon={
+                <DescriptionIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
               color="secondary"
             >
-              Resume
+              <Typography variant="h8" color={"text.main"}>
+                Resume
+              </Typography>
             </Button>
           </Paper>
         </Grid>

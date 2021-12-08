@@ -10,13 +10,13 @@ import { createTheme, ThemeProvider } from "@mui/material";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#383D3B",
+      main: "#0a0908",
     },
     secondary: {
-      main: "#7C7C7C",
+      main: "#540b0e",
     },
     text: {
-      main: "#eee5e9",
+      main: "#ffba08",
     },
   },
   typography: {

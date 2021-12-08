@@ -4,6 +4,7 @@ import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import WAVES from "vanta/dist/vanta.waves.min";
 import Skills from "./Skills";
+import mypic from "../assets/mypic.jpg";
 
 const Home = () => {
   const theme = useTheme();
@@ -23,7 +24,7 @@ const Home = () => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          color: 0x383d3b,
+          color: 0x540b0e,
         })
       );
     }
@@ -48,7 +49,7 @@ const Home = () => {
                 objectPosition: "center top",
               }}
               component="img"
-              src="https://i.imgur.com/3qRLaMw.jpg"
+              src={mypic}
             />
           </Card>
         </Grid>
@@ -56,7 +57,7 @@ const Home = () => {
           <Paper
             sx={{
               height: "30vh",
-              padding: "3% 3%",
+              padding: "3% 0",
               textAlign: "center",
               margin: "5% 0",
               backgroundColor: "primary.main",
@@ -66,6 +67,7 @@ const Home = () => {
             <Typography
               variant="h6"
               component="h2"
+              color={"text.main"}
               sx={{
                 fontFamily: "Open Sans, sans-serif",
               }}
@@ -78,6 +80,7 @@ const Home = () => {
               }}
               variant="p"
               component="p"
+              color={"text.main"}
             >
               My name is Shane Gray, and I'm a web developer from La Grange,
               Kentucky.
@@ -88,6 +91,7 @@ const Home = () => {
               }}
               variant="p"
               component="p"
+              color={"text.main"}
             >
               I'm currently attending Bloom Institute of Technology (formerly
               Lambda School) for Full Stack Web Development. This site as you

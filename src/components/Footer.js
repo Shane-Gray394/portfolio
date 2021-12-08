@@ -13,7 +13,7 @@ const Footer = () => {
         alignItems: "center",
       }}
     >
-      <Typography variant={"h7"} sx={{ color: "#eee5e9" }}>
+      <Typography variant={"h7"} color={"text.main"}>
         Created by Shane Gray &copy; 2021
       </Typography>
     </Box>

@@ -72,10 +72,16 @@ const Header = () => {
               component={Link}
               to="/"
               variant="contained"
-              startIcon={<HomeIcon />}
+              startIcon={
+                <HomeIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
             >
               {" "}
-              <Typography variant="h8" color="#eee5e9">
+              <Typography variant="h8" color={"text.main"}>
                 Home
               </Typography>
             </Button>
@@ -84,9 +90,15 @@ const Header = () => {
               component={Link}
               to="/projects"
               variant="contained"
-              startIcon={<FolderIcon />}
+              startIcon={
+                <FolderIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
             >
-              <Typography variant="h8" color="#eee5e9">
+              <Typography variant="h8" color={"text.main"}>
                 Projects
               </Typography>
             </Button>
@@ -95,10 +107,16 @@ const Header = () => {
               component={Link}
               to="/contact"
               variant="contained"
-              startIcon={<ContactPageIcon />}
+              startIcon={
+                <ContactPageIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
             >
               {" "}
-              <Typography variant="h8" color="#eee5e9">
+              <Typography variant="h8" color={"text.main"}>
                 Contact
               </Typography>
             </Button>
