@@ -15,6 +15,7 @@ import ContactPageIcon from "@mui/icons-material/ContactPage";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import icon from "../assets/icon.png";
 
 const Header = () => {
   const theme = useTheme();
@@ -137,7 +138,7 @@ const Header = () => {
           justifyContent: "space-between",
         }}
       >
-        <img src="https://i.imgur.com/Vk4AQvAt.png" alt="logo" />
+        <img src={icon} alt="logo" />
         {matches ? switchCase("a") : switchCase("b")}
       </Toolbar>
     </AppBar>
