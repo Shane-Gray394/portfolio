@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Card, CardMedia, Typography } from "@mui/material";
+import node from "../assets/nodejs.png";
 
 const Skills = () => {
   return (
@@ -74,6 +75,19 @@ const Skills = () => {
             color="text.main"
           >
             GitHub
+          </Typography>
+        </Card>
+      </Grid>
+      <Grid item md={1.1}>
+        <Card>
+          <CardMedia component="img" image={node} />
+          <Typography
+            variant="h5"
+            textAlign="center"
+            sx={{ backgroundColor: "secondary.main" }}
+            color="text.main"
+          >
+            Node.js
           </Typography>
         </Card>
       </Grid>
