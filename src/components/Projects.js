@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WAVES from "vanta/dist/vanta.waves.min";
+import backend from "../assets/backend.png";
 
 const Projects = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -36,12 +37,16 @@ const Projects = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} style={{ height: "100%", width: "100%" }}>
-      <Grid container justifyContent={"space-evenly"} sx={{ height: "80vh" }}>
+    <div ref={myRef} style={{ height: "auto" }}>
+      <Grid
+        container
+        justifyContent={"space-evenly"}
+        alignContent={"center"}
+        sx={{ height: "80vh" }}
+      >
         <Grid item lg={3} md={7} sm={9} xs={11}>
           <Card
             sx={{
-              margin: "5% 0",
               backgroundColor: "primary.main",
             }}
           >
@@ -97,7 +102,6 @@ const Projects = () => {
         <Grid item lg={3} md={7} sm={9} xs={11}>
           <Card
             sx={{
-              margin: "5% 0",
               backgroundColor: "primary.main",
             }}
           >
@@ -153,7 +157,6 @@ const Projects = () => {
         <Grid item lg={3} md={7} sm={9} xs={11}>
           <Card
             sx={{
-              margin: "5% 0",
               backgroundColor: "primary.main",
             }}
           >
@@ -171,16 +174,16 @@ const Projects = () => {
                 }}
                 color={"text.main"}
               >
-                To Be Determined
+                Anywhere Fitness Backend
               </Typography>
               <CardMedia
                 component="img"
-                image="https://i.imgur.com/QpVWVW1.png"
+                image={backend}
                 sx={{ height: "50vh", borderRadius: ".5%" }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
-                  href=""
+                  href="https://anywhere-fitness-back-end-2021.herokuapp.com/"
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
@@ -188,7 +191,7 @@ const Projects = () => {
                   <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
                 <Button
-                  href=""
+                  href="https://github.com/anywhere-fitness-2-bw-ft/back-end"
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}

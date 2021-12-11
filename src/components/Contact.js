@@ -34,8 +34,13 @@ const Contact = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} style={{ height: "100vh", width: "100%" }}>
-      <Grid container justifyContent={"center"} alignItems={"center"}>
+    <div ref={myRef} style={{ height: "auto", width: "100%" }}>
+      <Grid
+        container
+        justifyContent={"center"}
+        alignItems={"center"}
+        sx={{ height: "80vh" }}
+      >
         <Grid item lg={4} md={6} sm={8} xs={10}>
           <Paper
             sx={{

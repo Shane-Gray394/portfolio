@@ -7,10 +7,12 @@ const Footer = () => {
       sx={{
         backgroundColor: "primary.main",
         height: "10vh",
-        width: "100%",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        position: "absolute",
+        bottom: "0",
+        width: "100%",
       }}
     >
       <Typography variant={"h7"} color={"text.main"}>

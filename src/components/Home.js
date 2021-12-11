@@ -21,7 +21,7 @@ const Home = () => {
           touchControls: true,
           gyroControls: false,
           minHeight: 200.0,
-          minWidth: 100.0,
+          minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
           color: 0x540b0e,
@@ -33,7 +33,7 @@ const Home = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} style={{ width: "100%" }}>
+    <div ref={myRef} style={{ width: "auto" }}>
       <Grid container justifyContent={"space-evenly"}>
         <Grid item lg={3} md={5} sm={7} xs={10}>
           <Card
@@ -76,7 +76,7 @@ const Home = () => {
             </Typography>
             <Typography
               sx={{
-                padding: "3% 3%",
+                padding: "3% 0",
               }}
               variant="p"
               component="p"
