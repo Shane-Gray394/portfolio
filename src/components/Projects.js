@@ -38,7 +38,7 @@ const Projects = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} style={{ height: "auto" }}>
+    <div ref={myRef} style={{ height: "auto", position: "relative" }}>
       <Grid
         container
         justifyContent={"space-evenly"}
