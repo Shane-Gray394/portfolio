@@ -11,6 +11,7 @@ import {
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WAVES from "vanta/dist/vanta.waves.min";
 import backend from "../assets/backend.png";
+import plants from "../assets/plants.png";
 
 const Projects = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -42,12 +43,14 @@ const Projects = () => {
         container
         justifyContent={"space-evenly"}
         alignContent={"center"}
-        sx={{ height: "80vh" }}
+        columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        sx={{ padding: "2% 0" }}
       >
-        <Grid item lg={3} md={7} sm={9} xs={11}>
+        <Grid item lg={4} md={5} sm={10} xs={10}>
           <Card
             sx={{
               backgroundColor: "primary.main",
+              marginLeft: "1%",
             }}
           >
             <CardContent
@@ -60,7 +63,7 @@ const Projects = () => {
             >
               <Typography
                 sx={{
-                  paddingBottom: "10px",
+                  paddingBottom: "2%",
                 }}
                 color={"text.main"}
               >
@@ -69,7 +72,7 @@ const Projects = () => {
               <CardMedia
                 component="img"
                 image="https://i.imgur.com/ZwkD5U5.png"
-                sx={{ height: "50vh", borderRadius: ".5%" }}
+                sx={{ height: "20vh", borderRadius: ".5%" }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
@@ -99,7 +102,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={3} md={7} sm={9} xs={11}>
+        <Grid item lg={4} md={5} sm={10} xs={10}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -115,7 +118,7 @@ const Projects = () => {
             >
               <Typography
                 sx={{
-                  paddingBottom: "10px",
+                  paddingBottom: "2%",
                 }}
                 color={"text.main"}
               >
@@ -124,7 +127,7 @@ const Projects = () => {
               <CardMedia
                 component="img"
                 image="https://i.imgur.com/b3xtZlc.png"
-                sx={{ height: "50vh", borderRadius: ".5%" }}
+                sx={{ height: "20vh", borderRadius: ".5%" }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
@@ -154,7 +157,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={3} md={7} sm={9} xs={11}>
+        <Grid item lg={4} md={5} sm={10} xs={10} sx={{ paddingRight: "0.5%" }}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -170,7 +173,7 @@ const Projects = () => {
             >
               <Typography
                 sx={{
-                  paddingBottom: "10px",
+                  paddingBottom: "2%",
                 }}
                 color={"text.main"}
               >
@@ -179,7 +182,7 @@ const Projects = () => {
               <CardMedia
                 component="img"
                 image={backend}
-                sx={{ height: "50vh", borderRadius: ".5%" }}
+                sx={{ height: "20vh", borderRadius: ".5%" }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
@@ -192,6 +195,62 @@ const Projects = () => {
                 </Button>
                 <Button
                   href="https://github.com/anywhere-fitness-2-bw-ft/back-end"
+                  target="_blank"
+                  variant={"contained"}
+                  color={"secondary"}
+                  endIcon={
+                    <GitHubIcon
+                      sx={{
+                        color: "text.main",
+                      }}
+                    />
+                  }
+                >
+                  <Typography color={"text.main"}>The Repo</Typography>
+                </Button>
+              </ButtonGroup>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item lg={4} md={5} sm={10} xs={10}>
+          <Card
+            sx={{
+              backgroundColor: "primary.main",
+              marginTop: "7%",
+            }}
+          >
+            <CardContent
+              style={{
+                backgroundColor: "primary.main",
+                display: "flex",
+                flexFlow: "column wrap",
+                alignItems: "center",
+              }}
+            >
+              <Typography
+                sx={{
+                  paddingBottom: "2%",
+                }}
+                color={"text.main"}
+              >
+                Water My Plants
+              </Typography>
+              <CardMedia
+                component="img"
+                image={plants}
+                sx={{ height: "20vh", borderRadius: ".5%" }}
+              />
+              <ButtonGroup sx={{ paddingTop: "3%" }}>
+                <Button
+                  href="https://front-end-ijg2273o2-shane-gray394.vercel.app/"
+                  target="_blank"
+                  variant={"contained"}
+                  color={"secondary"}
+                >
+                  <Typography color={"text.main"}>Check it Out</Typography>
+                </Button>
+                <Button
+                  href="https://github.com/build-week-ft-water-my-plants-4/front-end"
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
