@@ -61,7 +61,7 @@ const Home = () => {
               textAlign: "center",
               margin: "5% 0",
               backgroundColor: "primary.main",
-              color: "#eee5e9",
+              color: "text.main",
             }}
           >
             <Typography

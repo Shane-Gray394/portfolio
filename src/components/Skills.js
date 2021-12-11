@@ -11,7 +11,6 @@ const Skills = () => {
         justifyContent: "space-around",
         padding: "2% 0",
         backgroundColor: "primary.main",
-        width: "auto",
       }}
     >
       <Grid item md={1.1}>
