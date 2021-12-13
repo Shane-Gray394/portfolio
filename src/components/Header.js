@@ -131,7 +131,7 @@ const Header = () => {
     <AppBar
       color="primary"
       position="static"
-      sx={{ padding: ".4% 0", height: "10vh" }}
+      sx={{ height: "15vh", paddingTop: "1%" }}
     >
       <Toolbar
         sx={{

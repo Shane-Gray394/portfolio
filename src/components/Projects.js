@@ -38,13 +38,14 @@ const Projects = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} style={{ height: "auto", position: "relative" }}>
+    <div ref={myRef} sx={{ height: "auto" }}>
       <Grid
         container
         justifyContent={"space-evenly"}
         alignContent={"center"}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-        sx={{ padding: "2% 0" }}
+        rowSpacing={4}
+        sx={{ padding: "2.1% 0" }}
       >
         <Grid item lg={4} md={5} sm={10} xs={10}>
           <Card
@@ -216,7 +217,6 @@ const Projects = () => {
           <Card
             sx={{
               backgroundColor: "primary.main",
-              marginTop: "7%",
             }}
           >
             <CardContent
