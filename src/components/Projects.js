@@ -73,7 +73,11 @@ const Projects = () => {
               <CardMedia
                 component="img"
                 image="https://i.imgur.com/ZwkD5U5.png"
-                sx={{ height: "20vh", borderRadius: ".5%" }}
+                sx={{
+                  height: "20vh",
+                  borderRadius: ".5%",
+                  objectPosition: "center top",
+                }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
@@ -128,7 +132,11 @@ const Projects = () => {
               <CardMedia
                 component="img"
                 image="https://i.imgur.com/b3xtZlc.png"
-                sx={{ height: "20vh", borderRadius: ".5%" }}
+                sx={{
+                  height: "20vh",
+                  borderRadius: ".5%",
+                  objectPosition: "center top",
+                }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
@@ -183,7 +191,11 @@ const Projects = () => {
               <CardMedia
                 component="img"
                 image={backend}
-                sx={{ height: "20vh", borderRadius: ".5%" }}
+                sx={{
+                  height: "20vh",
+                  borderRadius: ".5%",
+                  objectPosition: "center top",
+                }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
@@ -238,7 +250,11 @@ const Projects = () => {
               <CardMedia
                 component="img"
                 image={plants}
-                sx={{ height: "20vh", borderRadius: ".5%" }}
+                sx={{
+                  height: "20vh",
+                  borderRadius: ".5%",
+                  objectPosition: "center top",
+                }}
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
