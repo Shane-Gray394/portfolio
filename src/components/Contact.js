@@ -39,7 +39,7 @@ const Contact = () => {
         container
         justifyContent={"center"}
         alignItems={"center"}
-        sx={{ height: "80vh" }}
+        sx={{ height: "79.4vh" }}
       >
         <Grid item lg={4} md={6} sm={8} xs={10}>
           <Paper
