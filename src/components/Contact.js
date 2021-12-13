@@ -61,8 +61,8 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "120px",
-                minHeight: "30px",
+                minWidth: "130px",
+                minHeight: "40px",
               }}
               variant="contained"
               startIcon={
@@ -85,8 +85,8 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "120px",
-                minHeight: "30px",
+                minWidth: "130px",
+                minHeight: "40px",
               }}
               variant="contained"
               startIcon={
@@ -109,8 +109,8 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "120px",
-                minHeight: "30px",
+                minWidth: "130px",
+                minHeight: "40px",
               }}
               variant="contained"
               startIcon={
@@ -132,8 +132,8 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "120px",
-                minHeight: "30px",
+                minWidth: "130px",
+                minHeight: "40px",
               }}
               variant="contained"
               startIcon={
