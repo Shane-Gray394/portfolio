@@ -68,20 +68,14 @@ const Home = () => {
               color: "text.main",
             }}
           >
-            <Typography
-              variant="h6"
-              component="h2"
-              color={"text.main"}
-              sx={{
-                fontFamily: "Open Sans, sans-serif",
-              }}
-            >
+            <Typography variant="h6" component="h2" color={"text.main"}>
               About Me
             </Typography>
             <Typography
               sx={{
                 padding: "3% 0",
               }}
+              fontFamily={theme.typography.fontFamily}
               variant="p"
               component="p"
               color={"text.main"}
@@ -93,6 +87,7 @@ const Home = () => {
               sx={{
                 padding: "3% 3%",
               }}
+              fontFamily={theme.typography.fontFamily}
               variant="p"
               component="p"
               color={"text.main"}
