@@ -11,7 +11,7 @@ const Footer = () => {
         justifyContent: "center",
         alignItems: "flex-end",
         width: "100%",
-        paddingBottom: "0.3%",
+        // paddingBottom: "0.4%",
       }}
     >
       <Typography variant={"h8"} color={"text.main"} fontSize={13}>
