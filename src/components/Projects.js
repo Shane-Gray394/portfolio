@@ -38,13 +38,13 @@ const Projects = () => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} sx={{ height: "auto" }}>
+    <div ref={myRef} style={{ height: "auto" }}>
       <Grid
         container
         justifyContent={"space-evenly"}
         alignContent={"center"}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-        rowSpacing={4}
+        rowGap={4}
         sx={{ padding: "2.1% 0" }}
       >
         <Grid item lg={4} md={5} sm={10} xs={10}>
