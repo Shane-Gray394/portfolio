@@ -34,10 +34,7 @@ const Contact = () => {
     };
   }, [vantaEffect]);
   return (
-    <div
-      ref={myRef}
-      style={{ height: "auto", width: "100%", position: "relative" }}
-    >
+    <div ref={myRef}>
       <Grid
         container
         justifyContent={"center"}
@@ -54,8 +51,7 @@ const Contact = () => {
               textAlign: "center",
               padding: "7.5% 0",
               backgroundColor: "primary.main",
-              margin: "15% 0",
-              height: "30vh",
+              height: "40vh",
             }}
           >
             <Button
