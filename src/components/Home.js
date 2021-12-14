@@ -60,8 +60,8 @@ const Home = () => {
         <Grid item lg={6} md={5} xs={10}>
           <Paper
             sx={{
-              height: "30vh",
-              padding: "3% 0",
+              height: "auto",
+              padding: "7% 10%",
               textAlign: "center",
               margin: "5% 0",
               backgroundColor: "primary.main",
