@@ -44,7 +44,8 @@ const Skills = () => {
         <Card>
           <CardMedia component="img" image="https://i.imgur.com/ucJvXjG.png" />
           <Typography
-            variant="h5"
+            // variant="h5"
+            // component={"h4"}
             textAlign="center"
             sx={{ backgroundColor: "secondary.main" }}
             color="text.main"

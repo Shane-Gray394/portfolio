@@ -61,7 +61,7 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "130px",
+                minWidth: "140px",
                 minHeight: "40px",
               }}
               variant="contained"
@@ -74,9 +74,7 @@ const Contact = () => {
               }
               color="secondary"
             >
-              <Typography variant="h8" color={"text.main"}>
-                LinkedIn
-              </Typography>
+              <Typography color={"text.main"}>LinkedIn</Typography>
             </Button>
             <Button
               target="_blank"
@@ -85,7 +83,7 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "130px",
+                minWidth: "140px",
                 minHeight: "40px",
               }}
               variant="contained"
@@ -98,9 +96,7 @@ const Contact = () => {
               }
               color="secondary"
             >
-              <Typography variant="h8" color={"text.main"}>
-                Twitter
-              </Typography>
+              <Typography color={"text.main"}>Twitter</Typography>
             </Button>
             <Button
               target="_blank"
@@ -109,7 +105,7 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "130px",
+                minWidth: "140px",
                 minHeight: "40px",
               }}
               variant="contained"
@@ -122,9 +118,7 @@ const Contact = () => {
               }
               color="secondary"
             >
-              <Typography variant="h8" color={"text.main"}>
-                GitHub
-              </Typography>
+              <Typography color={"text.main"}>GitHub</Typography>
             </Button>
             <Button
               onClick={onResumeClick}
@@ -132,7 +126,7 @@ const Contact = () => {
                 margin: "1% 90%",
                 maxWidth: "500px",
                 maxHeight: "50px",
-                minWidth: "130px",
+                minWidth: "140px",
                 minHeight: "40px",
               }}
               variant="contained"
@@ -145,9 +139,7 @@ const Contact = () => {
               }
               color="secondary"
             >
-              <Typography variant="h8" color={"text.main"}>
-                Resume
-              </Typography>
+              <Typography color={"text.main"}>Resume</Typography>
             </Button>
           </Paper>
         </Grid>

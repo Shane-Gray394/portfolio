@@ -20,7 +20,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Arvo", "sans-serif"].join(","),
+    fontFamily: ["Alice", "sans-serif"].join(","),
   },
 });
 

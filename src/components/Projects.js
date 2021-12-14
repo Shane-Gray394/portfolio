@@ -85,6 +85,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                 >
                   <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
@@ -93,6 +94,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                   endIcon={
                     <GitHubIcon
                       sx={{
@@ -144,6 +146,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                 >
                   <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
@@ -152,6 +155,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                   endIcon={
                     <GitHubIcon
                       sx={{
@@ -203,6 +207,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                 >
                   <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
@@ -211,6 +216,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                   endIcon={
                     <GitHubIcon
                       sx={{
@@ -262,6 +268,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                 >
                   <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
@@ -270,6 +277,7 @@ const Projects = () => {
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
+                  sx={{ textAlign: "center" }}
                   endIcon={
                     <GitHubIcon
                       sx={{

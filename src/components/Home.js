@@ -68,7 +68,12 @@ const Home = () => {
               color: "text.main",
             }}
           >
-            <Typography variant="h6" component="h2" color={"text.main"}>
+            <Typography
+              variant="h6"
+              component="h2"
+              color={"text.main"}
+              fontSize={"2rem"}
+            >
               About Me
             </Typography>
             <Typography
@@ -79,6 +84,7 @@ const Home = () => {
               variant="p"
               component="p"
               color={"text.main"}
+              fontSize={"1.25rem"}
             >
               My name is Shane Gray, and I'm a web developer from La Grange,
               Kentucky.
@@ -91,6 +97,7 @@ const Home = () => {
               variant="p"
               component="p"
               color={"text.main"}
+              fontSize={"1.25rem"}
             >
               I'm currently attending Bloom Institute of Technology (formerly
               Lambda School) for Full Stack Web Development. This site as you

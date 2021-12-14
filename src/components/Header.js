@@ -82,9 +82,7 @@ const Header = () => {
               }
             >
               {" "}
-              <Typography variant="h8" color={"text.main"}>
-                Home
-              </Typography>
+              <Typography color={"text.main"}>Home</Typography>
             </Button>
             <Button
               color="secondary"
@@ -99,9 +97,7 @@ const Header = () => {
                 />
               }
             >
-              <Typography variant="h8" color={"text.main"}>
-                Projects
-              </Typography>
+              <Typography color={"text.main"}>Projects</Typography>
             </Button>
             <Button
               color="secondary"
@@ -117,9 +113,7 @@ const Header = () => {
               }
             >
               {" "}
-              <Typography variant="h8" color={"text.main"}>
-                Contact
-              </Typography>
+              <Typography color={"text.main"}>Contact</Typography>
             </Button>
           </ButtonGroup>
         );
