@@ -53,14 +53,14 @@ const Header = () => {
                 "aria-labelledby": "basic-button",
               }}
             >
-              <MenuItem component={Link} to="/contact" onClick={handleClose}>
-                Contact
+              <MenuItem component={Link} to="/" onClick={handleClose}>
+                Home
               </MenuItem>
               <MenuItem component={Link} to="/projects" onClick={handleClose}>
                 Projects
               </MenuItem>
-              <MenuItem component={Link} to="/" onClick={handleClose}>
-                Home
+              <MenuItem component={Link} to="/contact" onClick={handleClose}>
+                Contact
               </MenuItem>
             </Menu>
           </div>
