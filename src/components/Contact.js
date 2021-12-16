@@ -46,7 +46,6 @@ const Contact = () => {
               alignItems: "center",
               justifyContent: "center",
               textAlign: "center",
-              // padding: "7.5% 0",
               backgroundColor: "primary.main",
               height: "40vh",
             }}
