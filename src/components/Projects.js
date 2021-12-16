@@ -90,7 +90,7 @@ const Projects = () => {
                   <Typography color={"text.main"}>Check it Out</Typography>
                 </Button>
                 <Button
-                  href="https://github.com/bw-fr-potluck-planner-6/front-end"
+                  href="https://github.com/Shane-Gray394/front-end-1"
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
