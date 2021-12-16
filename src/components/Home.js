@@ -101,9 +101,8 @@ const Home = () => {
             >
               I'm currently attending Bloom Institute of Technology (formerly
               Lambda School) for Full Stack Web Development. This site as you
-              see it is made from everything I've learned thus far, at any given
-              point. It will be updated throughout my time here, as I learn
-              more.
+              see it is made from a bit of what I've learned thus far. It will
+              be updated throughout my time here, as I learn more.
             </Typography>
           </Paper>
         </Grid>

@@ -15,3 +15,8 @@ code {
 Link {
   text-decoration: none;
 }
+
+.MuiMenu-list {
+  background-color: #100c08;
+  color: #fff;
+}
