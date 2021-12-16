@@ -84,28 +84,6 @@ const Contact = () => {
             </Button>
             <Button
               target="_blank"
-              href="https://twitter.com/Shane_the_Gray"
-              sx={{
-                margin: "1% 90%",
-                maxWidth: "500px",
-                maxHeight: "50px",
-                minWidth: "140px",
-                minHeight: "40px",
-              }}
-              variant="contained"
-              startIcon={
-                <TwitterIcon
-                  sx={{
-                    color: "text.main",
-                  }}
-                />
-              }
-              color="secondary"
-            >
-              <Typography color={"text.main"}>Twitter</Typography>
-            </Button>
-            <Button
-              target="_blank"
               href="https://github.com/Shane-Gray394"
               sx={{
                 margin: "1% 90%",
@@ -125,6 +103,28 @@ const Contact = () => {
               color="secondary"
             >
               <Typography color={"text.main"}>GitHub</Typography>
+            </Button>
+            <Button
+              target="_blank"
+              href="https://twitter.com/Shane_the_Gray"
+              sx={{
+                margin: "1% 90%",
+                maxWidth: "500px",
+                maxHeight: "50px",
+                minWidth: "140px",
+                minHeight: "40px",
+              }}
+              variant="contained"
+              startIcon={
+                <TwitterIcon
+                  sx={{
+                    color: "text.main",
+                  }}
+                />
+              }
+              color="secondary"
+            >
+              <Typography color={"text.main"}>Twitter</Typography>
             </Button>
             <Button
               onClick={handleSubmit}
