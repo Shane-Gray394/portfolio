@@ -81,7 +81,7 @@ const Projects = () => {
               />
               <ButtonGroup sx={{ paddingTop: "3%" }}>
                 <Button
-                  href="https://potluck-planner-6.vercel.app/"
+                  href="https://potluck-planning.vercel.app/"
                   target="_blank"
                   variant={"contained"}
                   color={"secondary"}
