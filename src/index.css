@@ -20,3 +20,7 @@ Link {
   background-color: #100c08;
   color: #fff;
 }
+.MuiTextField-root {
+  background-color: #540b0e;
+  color: white;
+}
