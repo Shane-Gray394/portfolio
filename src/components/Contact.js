@@ -4,15 +4,12 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import DescriptionIcon from "@mui/icons-material/Description";
-import pdf from "../assets/resume.pdf";
 import WAVES from "vanta/dist/vanta.waves.min";
 
 const Contact = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
-  const onResumeClick = () => {
-    window.open(pdf);
-  };
+
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
@@ -49,7 +46,7 @@ const Contact = () => {
               alignItems: "center",
               justifyContent: "center",
               textAlign: "center",
-              padding: "7.5% 0",
+              // padding: "7.5% 0",
               backgroundColor: "primary.main",
               height: "40vh",
             }}
@@ -121,7 +118,8 @@ const Contact = () => {
               <Typography color={"text.main"}>GitHub</Typography>
             </Button>
             <Button
-              onClick={onResumeClick}
+              href="https://docs.google.com/document/d/1eQWS-g4Ze0B4YtK5YmNFScb46QunMcKAzSSEG7xZlKs/edit?usp=sharing"
+              target="_blank"
               sx={{
                 margin: "1% 90%",
                 maxWidth: "500px",
