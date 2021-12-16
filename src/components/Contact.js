@@ -1,15 +1,43 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Paper, Button, Typography, Grid, TextField } from "@mui/material";
+import {
+  Paper,
+  Button,
+  Typography,
+  Grid,
+  TextField,
+  ButtonGroup,
+} from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import DescriptionIcon from "@mui/icons-material/Description";
 import WAVES from "vanta/dist/vanta.waves.min";
 
 const Contact = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
+  const [isCopied, setIsCopied] = useState(false);
+  async function copyTextToClipboard(text) {
+    if ("clipboard" in navigator) {
+      return await navigator.clipboard.writeText(text);
+    } else {
+      return document.execCommand("copy", true, text);
+    }
+  }
+  const handleCopyClick = () => {
+    copyTextToClipboard("shane.dalton.gray@gmail.com")
+      .then(() => {
+        setIsCopied(true);
+        setTimeout(() => {
+          setIsCopied(false);
+        }, 1500);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -126,27 +154,7 @@ const Contact = () => {
             >
               <Typography color={"text.main"}>Twitter</Typography>
             </Button>
-            <Button
-              onClick={handleSubmit}
-              sx={{
-                margin: "1% 90%",
-                maxWidth: "500px",
-                maxHeight: "50px",
-                minWidth: "140px",
-                minHeight: "40px",
-              }}
-              variant="contained"
-              startIcon={
-                <EmailIcon
-                  sx={{
-                    color: "text.main",
-                  }}
-                />
-              }
-              color="secondary"
-            >
-              <Typography color={"text.main"}>Email Me</Typography>
-            </Button>
+
             <Button
               href="https://docs.google.com/document/d/1eQWS-g4Ze0B4YtK5YmNFScb46QunMcKAzSSEG7xZlKs/edit?usp=sharing"
               target="_blank"
@@ -169,6 +177,45 @@ const Contact = () => {
             >
               <Typography color={"text.main"}>Resume</Typography>
             </Button>
+            <ButtonGroup sx={{ margin: "1% 0" }}>
+              <Button
+                onClick={handleSubmit}
+                sx={{
+                  maxHeight: "50px",
+                  minHeight: "40px",
+                }}
+                variant="contained"
+                startIcon={
+                  <EmailIcon
+                    sx={{
+                      color: "text.main",
+                    }}
+                  />
+                }
+                color="secondary"
+              >
+                <Typography color={"text.main"}>Email</Typography>
+              </Button>
+
+              <TextField
+                type="text"
+                value={"shane.dalton.gray@gmail.com"}
+                readOnly
+                sx={{ display: "none" }}
+              />
+              <Button
+                sx={{
+                  maxHeight: "50px",
+                  minHeight: "40px",
+                }}
+                onClick={handleCopyClick}
+                variant="contained"
+                color="secondary"
+                startIcon={<ContentCopyIcon sx={{ color: "text.main" }} />}
+              >
+                <Typography>{isCopied ? "Copied!" : "Copy"}</Typography>
+              </Button>
+            </ButtonGroup>
           </Paper>
         </Grid>
       </Grid>
