@@ -12,6 +12,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import WAVES from "vanta/dist/vanta.waves.min";
 import backend from "../assets/backend.png";
 import plants from "../assets/plants.png";
+import potluck from "../assets/potluck.png";
 
 const Projects = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -72,7 +73,7 @@ const Projects = () => {
               </Typography>
               <CardMedia
                 component="img"
-                image="https://i.imgur.com/b3xtZlc.png"
+                image={potluck}
                 sx={{
                   height: "20vh",
                   borderRadius: ".5%",
