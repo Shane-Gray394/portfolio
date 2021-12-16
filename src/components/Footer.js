@@ -10,7 +10,7 @@ const Footer = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "flex-end",
-        paddingBottom: "0.4%",
+        paddingBottom: "0.6%",
       }}
     >
       <Typography variant={"h8"} color={"text.main"} fontSize={13}>

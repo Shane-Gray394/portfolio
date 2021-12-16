@@ -19,6 +19,7 @@ const Contact = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
   const [isCopied, setIsCopied] = useState(false);
+
   async function copyTextToClipboard(text) {
     if ("clipboard" in navigator) {
       return await navigator.clipboard.writeText(text);
@@ -26,6 +27,7 @@ const Contact = () => {
       return document.execCommand("copy", true, text);
     }
   }
+
   const handleCopyClick = () => {
     copyTextToClipboard("shane.dalton.gray@gmail.com")
       .then(() => {

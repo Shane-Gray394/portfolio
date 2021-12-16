@@ -42,13 +42,14 @@ const Projects = () => {
     <div ref={myRef} style={{ height: "auto" }}>
       <Grid
         container
+        columns={11}
         justifyContent={"space-evenly"}
         alignContent={"center"}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
         rowGap={4}
         sx={{ padding: "2.2% 0" }}
       >
-        <Grid item lg={4} md={5} sm={10} xs={10}>
+        <Grid item lg={3} md={4} sm={6} xs={8}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -110,7 +111,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={4} md={5} sm={10} xs={10}>
+        <Grid item lg={3} md={4} sm={6} xs={8}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -172,7 +173,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={4} md={5} sm={10} xs={10}>
+        <Grid item lg={3} md={4} sm={6} xs={8}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -234,7 +235,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={4} md={5} sm={10} xs={10}>
+        <Grid item lg={3} md={4} sm={6} xs={8}>
           <Card
             sx={{
               backgroundColor: "primary.main",
