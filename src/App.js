@@ -22,11 +22,6 @@ const theme = createTheme({
   typography: {
     fontFamily: ["Alice", "sans-serif"].join(","),
   },
-  menuPaper: {
-    "& .MuiPaper-root": {
-      backgroundColor: "primary.main",
-    },
-  },
 });
 
 function App() {
