@@ -49,7 +49,7 @@ const Projects = () => {
         rowGap={4}
         sx={{ padding: "2.2% 0" }}
       >
-        <Grid item lg={3} md={4} sm={6} xs={8}>
+        <Grid item lg={3} md={4} sm={6} xs={10}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -111,7 +111,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={3} md={4} sm={6} xs={8}>
+        <Grid item lg={3} md={4} sm={6} xs={10}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -173,7 +173,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={3} md={4} sm={6} xs={8}>
+        <Grid item lg={3} md={4} sm={6} xs={10}>
           <Card
             sx={{
               backgroundColor: "primary.main",
@@ -235,7 +235,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item lg={3} md={4} sm={6} xs={8}>
+        <Grid item lg={3} md={4} sm={6} xs={10}>
           <Card
             sx={{
               backgroundColor: "primary.main",
