@@ -46,6 +46,7 @@ const Home = () => {
               borderRadius: "1%",
               height: "55vh",
             }}
+            elevation={10}
           >
             <CardMedia
               sx={{
@@ -67,6 +68,7 @@ const Home = () => {
               backgroundColor: "primary.main",
               color: "text.main",
             }}
+            elevation={10}
           >
             <Typography
               variant="h6"

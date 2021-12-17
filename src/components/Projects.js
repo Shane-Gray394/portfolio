@@ -55,6 +55,7 @@ const Projects = () => {
               backgroundColor: "primary.main",
               margin: "0 1%",
             }}
+            elevation={10}
           >
             <CardContent
               style={{
@@ -117,6 +118,7 @@ const Projects = () => {
               backgroundColor: "primary.main",
               margin: "0 1%",
             }}
+            elevation={10}
           >
             <CardContent
               style={{
@@ -179,6 +181,7 @@ const Projects = () => {
               backgroundColor: "primary.main",
               margin: "0 1%",
             }}
+            elevation={10}
           >
             <CardContent
               style={{
@@ -241,6 +244,7 @@ const Projects = () => {
               backgroundColor: "primary.main",
               margin: "0 1%",
             }}
+            elevation={10}
           >
             <CardContent
               style={{
